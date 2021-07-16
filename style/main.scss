@@ -1,0 +1,28 @@
+// import fonts
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+// variables
+$dark-color: #2a3137;
+$main-color: #006aff;
+$hFont: "Myriad Pro", "PingFang SC", "Microsoft YaHei", "Helvetica Neue",
+  Helvetica, Arial;
+$textFont: "Quicksand", sans-serif, Helvetica, Arial;
+// importing style files
+@import "./preloader";
+@import "./navBar";
+@import "./hero";
+@import "./whatSection";
+@import "./why";
+@import "./cards";
+@import "./footer";
+// style as always
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.holder {
+  position: relative;
+  width: 100%;
+}

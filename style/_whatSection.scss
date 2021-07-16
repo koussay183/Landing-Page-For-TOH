@@ -1,0 +1,72 @@
+.what {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: auto;
+  padding: 2em;
+  justify-content: center;
+  .innerWhatHolder {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    .textInnerWhat {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-bottom: 1em;
+      h1 {
+        color: $dark-color;
+        font-family: $hFont;
+        margin-bottom: 0;
+        text-transform: capitalize;
+      }
+      h2 {
+        color: #45f18e;
+        font-family: $textFont;
+        margin-bottom: 0;
+      }
+      p {
+        text-align: left;
+        color: $dark-color;
+        font-family: $textFont;
+        text-transform: capitalize;
+        line-height: 1.7em;
+      }
+      .button {
+        background: transparent;
+        padding: 0.7em 1.5em;
+        width: fit-content;
+        color: $dark-color;
+        font-family: $hFont;
+        border-radius: 2px;
+        text-transform: capitalize;
+        margin-top: 0.7em;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        font-weight: 500;
+        border: 2px solid $dark-color;
+        &:hover {
+          background: $dark-color;
+          color: #45f18e;
+        }
+      }
+    }
+    .imgInnerWhat {
+      position: relative;
+      width: 100%;
+      max-width: 265px;
+      height: fit-content;
+      margin: 1em auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
