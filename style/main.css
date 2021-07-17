@@ -301,7 +301,7 @@ nav .button:hover {
   text-transform: capitalize;
   font-size: 1.56em;
   margin-top: 0.2em;
-  color: #2a3137;
+  color: #ffffff;
 }
 
 @media (max-width: 788px) {
@@ -322,6 +322,12 @@ nav .button:hover {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero .textholder p {
+    color: #2a3137;
   }
 }
 
@@ -589,6 +595,20 @@ nav .button:hover {
           justify-content: center;
 }
 
+.cardHolder .innerCardHolder .innerCardHolderLast {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .cardHolder .innerCardHolder .card {
   position: relative;
   display: -webkit-box;
@@ -715,7 +735,7 @@ footer .innerFooter .innerFooterText form textarea {
 
 footer .innerFooter .innerFooterText form #email {
   padding: 1em;
-  max-width: 300px;
+  max-width: 400px;
   min-height: auto;
   font-size: 1em;
   margin-bottom: 0.5em;
@@ -750,7 +770,7 @@ footer .innerFooter .innerFooterText form button:hover {
 
 footer .innerFooter .innerFooterImg {
   width: 100%;
-  max-width: 350px;
+  max-width: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -773,6 +793,40 @@ footer .innerFooter .innerFooterImg img {
   padding: 1em 0;
   color: #d5b7ac;
   font-family: "Quicksand", sans-serif, Helvetica, Arial;
+}
+
+@media (max-width: 871px) {
+  footer .innerFooter .innerFooterText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .innerFooter .innerFooterText form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .innerFooter .innerFooterText h1 {
+    text-align: center;
+  }
+  footer .innerFooter .innerFooterText p {
+    text-align: center;
+  }
 }
 
 body {

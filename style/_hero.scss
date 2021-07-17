@@ -45,7 +45,7 @@
       text-transform: capitalize;
       font-size: 1.56em;
       margin-top: 0.2em;
-      color: #2a3137;
+      color: #ffffff;
     }
   }
 }
@@ -66,6 +66,16 @@
   .hero {
     .textholder {
       align-items: flex-start;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    .textholder {
+      p {
+        color: $dark-color;
+      }
     }
   }
 }

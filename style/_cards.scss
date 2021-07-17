@@ -10,6 +10,12 @@
     width: 100%;
     max-width: 1400px;
     justify-content: center;
+    .innerCardHolderLast {
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
     .card {
       position: relative;
       display: flex;

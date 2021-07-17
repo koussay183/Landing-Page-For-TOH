@@ -48,7 +48,7 @@ footer {
         }
         #email {
           padding: 1em;
-          max-width: 300px;
+          max-width: 400px;
           min-height: auto;
           font-size: 1em;
           margin-bottom: 0.5em;
@@ -80,7 +80,7 @@ footer {
     }
     .innerFooterImg {
       width: 100%;
-      max-width: 350px;
+      max-width: 250px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -98,4 +98,28 @@ footer {
   padding: 1em 0;
   color: #d5b7ac;
   font-family: $textFont;
+}
+
+@media (max-width: 871px) {
+  footer {
+    .innerFooter {
+      .innerFooterText {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        form {
+          width: 100%;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+        }
+        h1 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
